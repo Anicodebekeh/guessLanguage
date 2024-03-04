@@ -9,10 +9,9 @@ if(shortLang === 'und'){
     console.log("try another sample text")
 }else{
     const language = langs.where('3', shortLang)
-    console.log(language.name)
+    console.log(`our best guess is ${language.name}`)
 }
 
-// console.log(language)
 
 
 
